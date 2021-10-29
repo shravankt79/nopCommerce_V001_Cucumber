@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="testRunner.TestRun" time="278.329" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="testRunner.TestRun" time="130.732" errors="0" skipped="0">
   <properties>
     <property name="JOB_NAME" value="nopCommerce_V001_Cucumber"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/3/display/redirect?page=tests"/>
     <property name="NUMBER_OF_PROCESSORS" value="12"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="f4df9f50efbbe9f6"/>
+    <property name="POM_ARTIFACTID" value="nopCommerceV001_Cucumber"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="JUNIT_HOME" value="C:\Users\shrav\Downloads\junit-4.13.2"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="POM_DISPLAYNAME" value="nopCommerceV001_Cucumber"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="NODE_LABELS" value="master"/>
@@ -25,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="nopCommerce_V001_Cucumber"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -36,7 +38,7 @@
     <property name="USERNAME" value="SHRAVAN$"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="maven.conf" value="C:\Users\shrav\apache-maven-3.6.1\conf"/>
@@ -49,10 +51,11 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/3/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
     <property name="user.variant" value=""/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
@@ -63,12 +66,14 @@
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.12"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="SERVICE_ID" value="jenkins"/>
     <property name="COMPUTERNAME" value="SHRAVAN"/>
     <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="nopCommerceV001_Cucumber"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-nopCommerce_V001_Cucumber-1"/>
+    <property name="BUILD_TAG" value="jenkins-nopCommerce_V001_Cucumber-3"/>
     <property name="JENKINS_SERVER_COOKIE" value="f4df9f50efbbe9f6"/>
     <property name="HUDSON_URL" value="http://localhost:9090/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -76,7 +81,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\shrav\apache-maven-3.6.1\/bin;C:\Program Files\Java\jdk-11.0.12/bin;C:\Program Files\Java\jdk-11.0.12/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\shrav\gradle-5.6.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\shrav\apache-maven-3.6.1\bin;C:\Users\shrav\apache-maven-3.6.1\;C:\Users\shrav\apache-maven-3.6.1\\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\shrav\apache-maven-3.6.1\/bin;C:\Program Files\Java\jdk-11.0.12/bin;C:\Program Files\Java\jdk-11.0.12/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\shrav\gradle-5.6.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\shrav\apache-maven-3.6.1\bin;C:\Users\shrav\apache-maven-3.6.1\;C:\Users\shrav\apache-maven-3.6.1\\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
@@ -84,8 +89,8 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\shrav\apache-maven-3.6.1"/>
     <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\shrav\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;C:\Users\shrav\apache-maven-3.6.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\shrav\apache-maven-3.6.1\ C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.10.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 65251"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.12/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\shrav\gradle-5.6.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\shrav\apache-maven-3.6.1\bin;C:\Users\shrav\apache-maven-3.6.1\;C:\Users\shrav\apache-maven-3.6.1\\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\shrav\apache-maven-3.6.1\ C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.10.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 64290"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.12/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\shrav\gradle-5.6.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\shrav\apache-maven-3.6.1\bin;C:\Users\shrav\apache-maven-3.6.1\;C:\Users\shrav\apache-maven-3.6.1\\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -102,7 +107,7 @@
     <property name="PATH+MAVEN" value="C:\Users\shrav\apache-maven-3.6.1\/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/1/"/>
+    <property name="BUILD_URL" value="http://localhost:9090/job/nopCommerce_V001_Cucumber/3/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -114,7 +119,7 @@
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="3"/>
     <property name="PROCESSOR_REVISION" value="9e0a"/>
     <property name="JENKINS_URL" value="http://localhost:9090/"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -132,10 +137,10 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="java.vendor.version" value="18.9"/>
   </properties>
-  <testcase classname="Customers" name="Add a new Customer" time="172.387"/>
-  <testcase classname="Customers" name="Search Customer by EMailID" time="19.203"/>
-  <testcase classname="Customers" name="Search Customer by Name" time="20.905"/>
-  <testcase classname="Login" name="Successful Login with Valid Credentials" time="23.545"/>
-  <testcase classname="Login" name="Login Data Driven" time="21.389"/>
-  <testcase classname="Login" name="Login Data Driven" time="20.9"/>
+  <testcase classname="Customers" name="Add a new Customer" time="29.181"/>
+  <testcase classname="Customers" name="Search Customer by EMailID" time="18.546"/>
+  <testcase classname="Customers" name="Search Customer by Name" time="21.395"/>
+  <testcase classname="Login" name="Successful Login with Valid Credentials" time="20.056"/>
+  <testcase classname="Login" name="Login Data Driven" time="20.099"/>
+  <testcase classname="Login" name="Login Data Driven" time="21.455"/>
 </testsuite>
