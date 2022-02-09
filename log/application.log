@@ -1476,3 +1476,47 @@
 2022-02-01 23:15:46,266 [main] INFO nopCommerce - *******Click on logout link*******
 2022-02-01 23:15:50,727 [main] INFO nopCommerce - *******Login failed********
 2022-02-01 23:15:53,740 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:14:37,667 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:14:37,694 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:14:38,805 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:14:39,094 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:14:53,631 [main] INFO nopCommerce - *******Adding new customer********
+2022-02-09 01:14:53,632 [main] INFO nopCommerce - *******Providing customer details********
+2022-02-09 01:15:00,558 [main] INFO nopCommerce - *******Saving customer data********
+2022-02-09 01:15:03,393 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:15:05,181 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:15:05,182 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:15:06,377 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:15:06,647 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:15:18,400 [main] INFO nopCommerce - *******Searching a customer by email id********
+2022-02-09 01:15:21,814 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:15:23,617 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:15:23,618 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:15:24,763 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:15:25,015 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:15:36,674 [main] INFO nopCommerce - *******Searching customer by Name********
+2022-02-09 01:15:40,344 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:15:42,093 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:15:42,094 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:15:43,226 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:15:43,499 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:15:49,011 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:15:52,025 [main] INFO nopCommerce - *******Click on logout link*******
+2022-02-09 01:15:55,861 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:15:58,869 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:16:00,647 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:16:00,649 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:16:01,854 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:16:02,111 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:16:07,792 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:16:10,797 [main] INFO nopCommerce - *******Click on logout link*******
+2022-02-09 01:16:15,350 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:16:18,362 [main] INFO nopCommerce - *******Closing browser********
+2022-02-09 01:16:20,130 [main] INFO nopCommerce - *******Launching browser********
+2022-02-09 01:16:20,131 [main] INFO nopCommerce - *******Opening URL********
+2022-02-09 01:16:21,312 [main] INFO nopCommerce - *******Providing login details********
+2022-02-09 01:16:21,563 [main] INFO nopCommerce - *******Started login********
+2022-02-09 01:16:27,510 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:16:30,518 [main] INFO nopCommerce - *******Click on logout link*******
+2022-02-09 01:16:34,723 [main] INFO nopCommerce - *******Login failed********
+2022-02-09 01:16:37,735 [main] INFO nopCommerce - *******Closing browser********
