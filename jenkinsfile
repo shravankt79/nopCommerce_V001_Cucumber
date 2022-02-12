@@ -4,28 +4,28 @@ stages
 {
 stage('Build')
 {
-Steps{
+steps{
 echo "Building the code....."
 bat "mvn clean"
 }
 }
 stage('Test')
 {
-Steps{
+steps{
 echo "Testing the code....."
 bat "mvn test"
 }
 }
 stage('Compile')
 {
-Steps{
+steps{
 echo "Compiling the code....."
 bat "mvn compile"
 }
 }
 stage('Deploy')
 {
-Steps{
+steps{
 echo "Deploying the code....."
 }
 }
