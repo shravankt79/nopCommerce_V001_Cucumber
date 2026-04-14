@@ -50,6 +50,7 @@
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-html</artifactId>
     <version>0.2.7</version>
+     <scope>test</scope>
     </dependency>
      
     <!-- -https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura-->
